@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fenye_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.duanzishou.gosn.fenye_jiazai.fenye_Activity">
+
+    <ListView
+        android:id="@+id/list_fenye"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></ListView>
+
+<ImageView
+    android:id="@+id/OKGO_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>
